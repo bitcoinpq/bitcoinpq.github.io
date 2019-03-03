@@ -175,7 +175,17 @@ You can participate by creating issues in related <a href="https://github.com/bi
   <ul>
     <li>Nheqminer<96,3> source code: <a href="https://github.com/bitcoinpostquantum/nheqminer" target="_blank">https://github.com/bitcoinpostquantum/nheqminer</a></li>
     <li>Nheqminer<96,3> Windows binary: <a href="https://github.com/bitcoinpostquantum/nheqminer/releases/download/v1.0/nheqminer.exe">https://github.com/bitcoinpostquantum/nheqminer/releases/download/v1.0/nheqminer.exe</a></li>
-    <li>Nheqminer<96,3> Ubuntu 18.04 binary: <a href="https://github.com/bitcoinpostquantum/nheqminer/releases/download/v1.0/nheqminer">https://github.com/bitcoinpostquantum/nheqminer/releases/download/v1.0/nheqminer</a></li>
+    <li>Nheqminer<96,3> Ubuntu 18.04 binary: <a href="https://github.com/bitcoinpostquantum/nheqminer/releases/download/v1.0/nheqminer">https://github.com/bitcoinpostquantum/nheqminer/releases/download/v1.0/nheqminer</a>
+      <br>
+      Install Nvidia CUDA drivers:
+      <pre>
+  sudo apt-get purge nvidia-*
+  sudo add-apt-repository ppa:graphics-drivers/ppa
+  sudo apt-get update
+  sudo apt install nvidia-cuda-toolkit
+  sudo ubuntu-drivers autoinstall
+      </pre>
+    </li>
     <li>Ubuntu 18.04 ISO with installed Nvidia driver and nheqminer binary [8 GB]: <a href="http://pool.bitcoinpq.org/download/miner.iso">http://pool.bitcoinpq.org/download/miner.iso</a></li>
   </ul>
 
